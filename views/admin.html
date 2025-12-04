@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin - Maserati Fleet</title>
+<link rel='stylesheet' href='/css/style.css'>
+</head>
+<body>
+<h1>Créer une mission</h1>
+<form action='/create-mission' method='POST'>
+<label>Concession:</label><input name='concession'><br>
+<label>Date début:</label><input type='date' name='start_date'><br>
+<label>Date fin:</label><input type='date' name='end_date'><br>
+<label>Véhicules (IDs séparés par virgule):</label><input name='vehicles'><br>
+<button type='submit'>Créer mission</button>
+</form>
+</body>
+</html>
